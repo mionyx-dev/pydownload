@@ -30,7 +30,6 @@ typeFunc()
 
 while True: # Verifies input of user, confirming it is an integer
     try:
-        # if you only accept integers
         num = int(input('Enter itag: '))
         break
     except ValueError:
