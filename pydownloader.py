@@ -4,7 +4,7 @@ from pytube import YouTube
 # https://www.w3schools.com/python/python_try_except.asp
 # Ability to confirm input rather than output error
 
-audio = ("audio", "Audio", "AUDIO", "vIDEO")
+audio = ("audio", "Audio", "AUDIO", "aUDIO")
 video = ("video", "Video", "VIDEO", "vIDEO")
 
 def main():
