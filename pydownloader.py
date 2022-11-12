@@ -1,9 +1,5 @@
 from pytube import YouTube
 
-# TO DO: add ability to change file name, convert file type, and make gif
-# https://www.w3schools.com/python/python_try_except.asp
-# Ability to confirm input rather than output error
-
 audio = ("audio", "Audio", "AUDIO", "aUDIO")
 video = ("video", "Video", "VIDEO", "vIDEO")
 
@@ -36,5 +32,4 @@ while True: # Verifies input of user, confirming it is an integer
         print('Please enter a number.')
 
 stream = link.streams.get_by_itag(num)
-link.title = input("\nChoose a file name")
 stream.download()
